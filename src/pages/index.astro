@@ -1,11 +1,18 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Section_1 from '../components/Home/Section_1.astro';
+import Section_2 from '../components/Home/Section_2.astro';
+import Section_3 from '../components/Home/Section_3.astro';
+import Section_4 from '../components/Home/Section_4.astro';
+
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="VRAVO - Home">
+	<Section_1 />
+	<Section_2 />
+	<Section_3 />
+	<Section_4 />
 </Layout>
+
+
